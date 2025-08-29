@@ -1,12 +1,14 @@
 # libgit2-wasm
 
+Credits to [https://github.com/cryptable/wasm-openssl](https://github.com/cryptable/wasm-openssl) for the script to compile openssl to wasm.
+
 libgit2 compiled to wasm
 
 ## Compile
 
 ### Prerequisites
 
-To compile make sure you have emscripten, git, make, gcc, cmake, and python installed.
+To compile make sure you have zig, perl, emscripten, git, make, gcc, cmake, and python installed.
 
 ### Clone this repo
 
