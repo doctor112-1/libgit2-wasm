@@ -8,7 +8,7 @@ libgit2 compiled to wasm
 
 ### Prerequisites
 
-To compile make sure you have zig, perl, emscripten, git, make, gcc, cmake, and python installed.
+To compile make sure you have perl, emscripten, git, make, gcc, cmake, and python installed.
 
 ### Clone this repo
 
