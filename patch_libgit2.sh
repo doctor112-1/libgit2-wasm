@@ -43,3 +43,9 @@ sed -i -e '/^#  include/ s#<openssl/#"superspecialid../../../../openssl_files/in
 sed -i -e '/^#include/ s#<openssl/#"superspecialid../../../../openssl_files/include/openssl/#g' -e '/^#include "superspecialid/ s#>#"#g' -e '/^#include "superspecialid/ s#superspecialid##g' *.c
 
 cd ${base_dir}
+
+cd libgit2/tests/headertest/
+
+sed -i -r 's/ -Werror//' CMakeLists.txt
+
+cd ${base_dir}
