@@ -25,4 +25,4 @@ git clone https://github.com/doctor112-1/libgit2-wasm.git
 The built files should be in libgit2/build/
 
 > [!NOTE]
-> Currently builds but fails to work
+> Currently builds and works, but cloning is weird
