@@ -49,8 +49,3 @@ cd libgit2/tests/headertest/
 sed -i -r 's/ -Werror//' CMakeLists.txt
 
 cd ${base_dir}
-
-cp emscriptenhttp.c libgit2/src/libgit2/transports/
-rm libgit2/src/libgit2/transports/http.c
-rm libgit2/src/libgit2/settings.c
-cp settings.c libgit2/src/libgit2/
